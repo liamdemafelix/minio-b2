@@ -22,7 +22,7 @@ As part of a `docker-compose` file:
 
 ```
 old-minio:
-  build: .
+  image: ghcr.io/liamdemafelix/minio-b2:main
   container_name: old-minio
   environment:
     - MINIO_ACCESS_KEY=your-b2-access-key-here
